@@ -54,3 +54,42 @@ AI로 작성된 글이
 
 👉 [배포된 페이지 보러 가기](https://naminhyeok.github.io/ai-space-cleaner/)
 
+
+---
+## 현재 감지 가능한 특수 공백 목록
+
+| 문자 (Unicode)   | 이름                      | 설명                            |
+|:-----------------|:--------------------------|:--------------------------------|
+| \u00A0           | NO-BREAK SPACE            | 줄바꿈이 안 되는 공백           |
+| \u1680           | OGHAM SPACE MARK          | 오검 문자용 공백                |
+| \u180E           | MONGOLIAN VOWEL SEPARATOR | 몽골어 모음 구분자 (deprecated) |
+| \u2000           | EN QUAD                   | 영문 조판용 넓은 공백           |
+| \u2001           | EM QUAD                   | 더 넓은 QUAD                    |
+| \u2002           | EN SPACE                  | 약간 넓은 공백                  |
+| \u2003           | EM SPACE                  | 더 넓은 공백                    |
+| \u2004           | THREE-PER-EM SPACE        | EM의 1/3 넓이                   |
+| \u2005           | FOUR-PER-EM SPACE         | EM의 1/4 넓이                   |
+| \u2006           | SIX-PER-EM SPACE          | EM의 1/6 넓이                   |
+| \u2007           | FIGURE SPACE              | 숫자 맞춤용 고정 폭 공백        |
+| \u2008           | PUNCTUATION SPACE         | 구두점 맞춤용 공백              |
+| \u2009           | THIN SPACE                | 얇은 공백                       |
+| \u200A           | HAIR SPACE                | 가장 얇은 공백                  |
+| \u202F           | NARROW NO-BREAK SPACE     | 얇고 줄바꿈이 안 되는 공백      |
+| \u205F           | MEDIUM MATHEMATICAL SPACE | 수식용 중간 넓이 공백           |
+| \u3000           | IDEOGRAPHIC SPACE         | 전각 공백 (한중일 문자용)       |
+
+※ 위의 모든 공백 문자는 현재 프로젝트에서 감지 및 제거 대상입니다.
+
+---
+
+## 🧑‍💻 라이선스
+
+MIT License  
+자유롭게 사용, 수정, 배포 가능합니다.
+
+---
+
+## 🙏 기여
+
+Pull Request, Issue 환영합니다!  
+문제 제보나 개선 아이디어가 있다면 알려주세요.
